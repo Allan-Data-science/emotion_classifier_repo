@@ -1,7 +1,7 @@
 # emotion_classifier_repo
 # Tweet Emotion Classification Project
 
-This project is a submission for the [Name of your Course/Competition - e.g., AI/ML Analytics IE Kaggle Competition] on emotion classification of tweets. It includes a pip-installable Python package with a command-line interface (CLI) tool to predict the primary emotion expressed in a given text.
+This project is a submission for the on emotion classification of tweets. It includes a pip-installable Python package with a command-line interface (CLI) tool to predict the primary emotion expressed in a given text.
 
 ## Features
 
@@ -13,27 +13,23 @@ This project is a submission for the [Name of your Course/Competition - e.g., AI
 ## Project Structure
 
 tweet_emotion_predictor_project/
-├── emotion_classifier/            # Main package
+├── emotion_classifier/           
 │   ├── init.py
-│   ├── cli.py                     # CLI logic
-│   ├── predictor.py               # Prediction class
-│   ├── model_loader.py            # Handles model/asset loading & downloading
-│   ├── preprocess.py              # Text preprocessing
-│   └── assets/                    # For downloaded assets (created at runtime)
-├── setup.py                       # Package installation definition
-├── README.md                      # This file
-└── .gitignore                     # Specifies intentionally untracked files
+│   ├── cli.py                    
+│   ├── predictor.py              
+│   ├── model_loader.py            
+│   ├── preprocess.py              
+│   └── assets/                    
+├── setup.py                       
+├── README.md                      
+└── .gitignore                     
 
 
 ## Installation
 
 To install this package from its private GitHub repository, you will need a Personal Access Token (PAT) with `repo` (or at least read access to this repository) scope.
 
-1.  **Clone the Repository (Optional - for development):**
-    ```bash
-    git clone [https://YOUR_PAT_TOKEN@github.com/YOUR_USERNAME/YOUR_PROJECT_REPO_NAME.git](https://YOUR_PAT_TOKEN@github.com/YOUR_USERNAME/YOUR_PROJECT_REPO_NAME.git)
-    cd YOUR_PROJECT_REPO_NAME
-    ```
+
 
 2.  **Install via pip (Recommended for evaluation):**
     Create and activate a new virtual environment:
@@ -43,9 +39,9 @@ To install this package from its private GitHub repository, you will need a Pers
     ```
     Then install the package:
     ```bash
-    pip install git+[https://YOUR_PAT_TOKEN@github.com/YOUR_USERNAME/YOUR_PROJECT_REPO_NAME.git](https://YOUR_PAT_TOKEN@github.com/YOUR_USERNAME/YOUR_PROJECT_REPO_NAME.git)
+    pip install git+[https://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@github.com/Allan-Data-science/emotion_classifier_repo.git](https://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@github.com/Allan-Data-science/emotion_classifier_repo.git)
     ```
-    Replace `YOUR_PAT_TOKEN`, `YOUR_USERNAME`, and `YOUR_PROJECT_REPO_NAME` with your actual GitHub Personal Access Token, username, and repository name.
+   
 
 ## Usage
 
